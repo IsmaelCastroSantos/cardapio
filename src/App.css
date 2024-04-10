@@ -81,3 +81,24 @@ input:checked + label {
   object-fit: cover;
 }
 
+@media (max-width: 500px) {
+  .title {
+    font-size: 25px;
+  }
+  .price {
+    margin-bottom: 2px;
+    font-size: 38px;
+  }
+
+  .navigation {
+    display: grid;
+    justify-content: center;
+    & > label {
+      width: 300px;
+      }
+    }
+
+  .menu-item-container {
+    flex-direction: column;
+  }
+}
